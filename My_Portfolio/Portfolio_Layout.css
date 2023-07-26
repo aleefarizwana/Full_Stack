@@ -1,0 +1,40 @@
+div{                                 
+    font-style:italic ;
+    background-color: rgb(136, 202, 217);
+    border:1px solid black;
+   margin-bottom:5px ;                       /*    at bottom of each box 5px space came      */
+}
+                                /* by using .element_name directly applies to all  */
+
+.newclass{
+        background-color:rgb(199, 158, 216);
+        padding: 5px;
+}                               
+                                  /* by using class selector for particular element.classname */
+
+    p.useclass{
+        background-color: rgb(225, 66, 58);
+    }
+                                
+
+                                    /* by using class attribute */
+#header{
+    background-color: rgb(167, 208, 215);
+}
+                                    /* by using id */
+p{
+    background-color: rgb(187, 183, 179);
+}
+ 
+                                         /* universal selector */
+
+/* *{                                   /*default will be change*/
+  /*    background-color:lightgrey ;
+    margin: 10;
+    padding:10;
+}                        */
+/* margin.padding,custom height,width */
+
+
+
+
