@@ -1,0 +1,109 @@
+A CSS file,gives styling information to the html page elements(Assignment.html).
+
+
+Assignment1_Layout.css
+
+body{
+    margin:0px;
+}
+
+header{
+    background-color: rgb(245, 213, 171);
+    height:80px;
+    font-size: larger;
+    font-weight: bolder;
+  
+    text-align: center;
+    align-items: center;
+    
+}
+.stick{
+    position:fixed;
+    top:0;
+    width:100%;
+    
+
+}
+
+nav{
+  
+    background-color:rgb(86, 250, 119);
+    margin-bottom:0px;
+    display: flex;
+    
+}
+a{
+    margin-right: 100px;
+    color:brown;
+}
+
+
+.main{
+    height: 400px;
+    display:flex;
+    justify-content: center; 
+    margin-top: 87px;
+ 
+ }
+
+.box1{
+    height: 400px;
+    width: 500px;
+    background-color: rgb(223, 233, 255);
+    margin-right: 6px;
+    position: relative;
+}
+.img1{
+    position: absolute;
+    margin-left:300px;
+    right:0px;
+    border:10px solid rgb(132, 128, 128);
+}
+
+.box2{
+    height: 400px;
+    width: 500px;
+    background-color: rgb(248, 195, 235);
+    margin-right: 6px;
+    position: relative;
+}
+.p1{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    right: 200px;
+    border:15px solid rgb(121, 121, 249);
+}
+
+.box3{
+    height: 400px;
+    width: 500px;
+    background-color: rgb(254, 189, 189);
+    position: relative;
+}
+.p2{
+     position: absolute;
+     left:50px;
+     top:140px;
+     right:40px;
+}
+
+
+img{
+    border:5px solid green;
+    border-radius: 20px;
+    transition: transform 0.8 ease-in-out;
+}
+img:hover{
+    transform: scale(1.2);
+}
+
+footer{
+    height:60px;
+    background-color: rgb(245, 213, 171);
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
