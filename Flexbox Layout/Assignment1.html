@@ -1,0 +1,90 @@
+Task 1: Flexbox Layout
+Create an HTML file that includes a header, main content area, and a footer. Use CSS Flexbox to achieve the following layout:
+The header should have a height of 80 pixels and contain a navigation menu with evenly spaced items.
+The main content area should have a minimum height of 400 pixels and display its content in a column.
+The footer should have a height of 60 pixels and display content centered horizontally and vertically.
+Task 2: Flex Items Alignment
+Inside the main content area, create three boxes with different background colors and equal widths. Use Flexbox to align these boxes in a row, ensuring they have an equal amount of space between them.
+Task 3: Positioning Elements
+Create an HTML file that includes an image and two paragraphs of text. Apply the following styles
+Position the image to the top right corner of its parent container, with a margin of 10 pixels from the edges.
+Position the first paragraph to the bottom left corner of its parent container, with a margin of 15 pixels from the edges.
+Position the second paragraph centered horizontally and vertically within its parent container using absolute positioning.
+Task 4: Fixed Navigation Bar
+Create a fixed navigation bar that sticks to the top of the viewport when users scroll down the page. Ensure that the navigation links are evenly spaced and styled appropriately.
+Task 5: Image Gallery with Hover Effect and Transition
+Create an image gallery with thumbnail images. When a user hovers over a thumbnail, apply a transform: scale(1.2) effect to scale up the image. Use CSS transition property to animate the scaling effect smoothly.
+
+
+
+
+Assignment1.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY CREATION</title>
+    <link rel="stylesheet" href="Assignment1_Layout.css">
+</head>
+<body>
+
+    <header class="stick">My Assignment1<br><br><br>
+        <nav>
+           <a href="/box_shadow.html">box_shadow</a>  
+            <a href="/branches.html">branches</a> 
+            <a href="/image.html">image</a> 
+            <a href="/cse.html">cse</a>  
+            <a href="/list.html">list</a>
+        </nav>
+    </header>
+   
+    <div class="main">
+        
+        <div class="box1">
+            <img class="img1" src="https://tse3.mm.bing.net/th?id=OIP.eebAvAx6wvkraR-MGH-6ogHaK_&pid=Api&P=0&h=180" alt="nature">
+        </div>
+        <div class="box2">
+            <p class="p1">The Red Fort or Lal Qila is a historic fort in the Old Delhi neighbourhood of Delhi, India, that historically served as the main residence of the Mughal emperors. Emperor Shah Jahan commissioned construction of the Red Fort on 12th May 1638.its design is credited to architect Ustad Ahmad Lahori, who also constructed the Taj Mahal.</p>
+        </div>
+        <div class="box3">
+            <p class="p2">The Charminar is a monument located in Hyderabad, Telangana, India. Constructed in 1591, the landmark is a symbol of Hyderabad and officially incorporated in the emblem of Telangana.[3] The Charminar's long history includes the existence of a mosque on its top floor for more than 425 years.</p>
+        </div>
+
+    
+
+    </div>
+
+    <div>
+        <h1>Image Gallery</h1>
+        <a href="https://tse3.mm.bing.net/th?id=OIP.FmwKwxv4gt1iGusbmWpnewHaFA&pid=Api&P=0&h=180">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.FmwKwxv4gt1iGusbmWpnewHaFA&pid=Api&P=0&h=180" alt="plants" width="250" height="250" vspace="30px">
+        </a>
+        <a href="https://tse1.mm.bing.net/th?id=OIP.f0w9pPEPQP9DNkw96rNoOAHaEo&pid=Api&P=0&h=180">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.f0w9pPEPQP9DNkw96rNoOAHaEo&pid=Api&P=0&h=180" alt="water falls" width="250" height="250" vspace="30px">
+        </a>
+        <a href="https://tse2.mm.bing.net/th?id=OIP.kacVf87DfLV9NDddTRZGOAHaEK&pid=Api&P=0&h=180">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.kacVf87DfLV9NDddTRZGOAHaEK&pid=Api&P=0&h=180" alt="beach" width="250" height="250" vspace="30px">
+        </a>
+        <a href="https://tse4.mm.bing.net/th?id=OIP.nHyCb5P_gyF25FTmDleiSQHaFj&pid=Api&P=0&h=180">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.nHyCb5P_gyF25FTmDleiSQHaFj&pid=Api&P=0&h=180" alt="birds" width="250" height="250" vspace="30px">
+        </a>
+        <a href="https://tse4.mm.bing.net/th?id=OIP.-k3QF8TEoI9pSEszH6L0hAHaEK&pid=Api&P=0&h=180">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.-k3QF8TEoI9pSEszH6L0hAHaEK&pid=Api&P=0&h=180" alt="heidi" width="250" height="250" vspace="30px">
+        </a>
+        <a href="https://tse1.mm.bing.net/th?id=OIP.xX0FeBXmsjNnZNMGnP7wsAHaFj&pid=Api&P=0&h=180">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.xX0FeBXmsjNnZNMGnP7wsAHaFj&pid=Api&P=0&h=180" alt="island" width="250" height="250" vspace="30px">
+        </a>
+        <a href="https://tse1.mm.bing.net/th?id=OIP.MPLJHXnp82mPhVj3SzsnKwHaEu&pid=Api&P=0&h=180">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.MPLJHXnp82mPhVj3SzsnKwHaEu&pid=Api&P=0&h=180" alt=""width="250" height="250" vspace="30px">
+        </a>
+        <a href="https://tse1.explicit.bing.net/th?id=OIP.zWx3FFnkHizY93YigizjDwHaF_&pid=Api&P=0&h=180">
+            <img src="https://tse1.explicit.bing.net/th?id=OIP.zWx3FFnkHizY93YigizjDwHaF_&pid=Api&P=0&h=180" alt=""width="250" height="250" vspace="30px">
+        </a>
+    </div>
+
+    <footer>CSS Flexbox, Positioning, Hover Effect, and Transition</footer>
+   
+</body>
+</html>
