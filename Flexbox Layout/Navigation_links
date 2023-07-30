@@ -1,0 +1,141 @@
+List of all html pages used in navigation bar in  Assignment1.html file.
+
+
+box_shadow.html
+================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Semantic Elements</title>
+		<style type="text/css">
+		   .box{
+					width:200px;
+					height:200px;
+					box-shadow:10px 10px 20px red,30px 30px 40px blue;
+				}
+			h1{
+				text-shadow:10px 20px 20px red,30px 40px 4px yellow;
+            }
+	</style>
+</head>
+<body>
+  		<div class="box"></div>
+		<h1>ulugjkhk</h1>
+</body>
+
+
+branches.html
+==============================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Semantic Elements</title>
+</head>
+<body>
+     <main>
+          <article>
+					<header>
+							<h1>cse branches</h1>
+					</header>
+					<section>
+							<p>cse</p>
+							<p>cse</p>
+							<p>cse</p>
+					</section>
+			</article>
+			<article>
+					<header>
+							<h1>Non-cse branches</h1>
+					</header>
+					<section>
+							<p>ece</p>
+							<p>eee</p>
+							<p>mech</p>
+					</section>
+			</article>
+	  </main>
+        <footer align="center">
+				<p>contact us at <a href="http//:www.rgmcet.edu.in">rgmcet</a></p>
+		</footer>
+</body>
+
+
+image.html
+=========================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Semantic Elements</title>
+	  <style type="text/css">
+			aside{
+					margin-left:30%;
+					padding-left:15px;
+					float:right;
+					background-color:green;
+					font-style:italic;
+				}
+	</style>
+</head>
+<body>
+      <h1>html</h1>
+		<p>html is <mark>hyper text markup language</mark>njmysfgu srg</p>
+		<figure align="center">
+			<img src="img.jpg" alt="image1" width="200" height="200">
+			<figcaption>My Image</figcaption>
+		</figure>
+		<aside>
+			<h1>css</h1>
+			<p>mkkhgd dfhdry srty seyt      fhd tudy eryt qw jlkhukgyj bjhb</p>
+		</aside>
+
+</body>
+</html>
+
+
+cse.html
+=====================
+<html>
+   <body>
+        <p>This is page related to cse</p>
+ </body>
+</html>
+
+List.html
+==============================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Semantic Elements</title>
+		<style type="text/css">
+		   ol.in li{
+					list-style-position:inside;
+					list-style-type:upper-roman;
+				}
+			 ul.out li{
+					list-style-type:square;
+					list-style-position:outside;
+				}
+			ul,ol{
+				padding:5px;
+				margin:5px;
+				background:green;
+				}
+	</style>
+</head>
+<body>
+  		<ol class="in">
+			<li>cse</li>
+			<li>ece</li>
+			<li>eee</li>
+			<li>mech</li>
+		</ol>
+
+  		<ul class="out">
+			<li>green</li>
+			<li>pink</li>
+			<li>blue</li>
+			<li>red</li>
+		</ul>
+
+</body>
+</html>
