@@ -1,0 +1,30 @@
+<!--Here is html and java script file , to describe types of script (internal,external and inline)-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>               
+    <script>
+        console.log("Hello to the internal script");
+    </script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h3>Hello World</h3>
+    <script>
+        console.log("Hello to the inline script of JavaScript.........");
+    </script>
+</body>
+</html>
+
+
+
+
+<!-- output in chrome->right click->inspect->console -->
+<!-- Hello to the external script
+index.html:9 Hello to the internal script
+script.js:1 Hello to the external script
+index.html:16 Hello to the inline script of JavaScript......... -->
