@@ -1,0 +1,101 @@
+body{
+    margin:0px;
+    background-color: grey;
+}
+
+header{
+    background-color: rgb(241, 59, 59);
+    height:90px;
+    font-size: larger;
+    font-weight: bolder;
+  
+    /* text-align: center; */
+    /* align-items: center; */
+    margin-right:0px;
+}
+.stick{
+    position:fixed;
+    top:0;
+    width:100%;
+    
+
+}
+
+nav{
+    position: absolute;
+    right: 0px;
+    
+
+}
+a{
+    margin-right: 100px;
+    color:rgb(232, 220, 220);
+ 
+}
+a:hover{
+    background-color: aqua;
+   
+    
+}
+
+
+
+.d1{
+    background-color:black;
+    height: 200px;
+    color: white;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+p.wrapp{
+    color: yellow; 
+    font-family: "Arial";
+    font-size: 30px;
+    margin: 50px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+   /* added animation property to show the character one at a time*/
+    animation: type 25s steps(50, end); 
+}
+ /*set the background colour of div element to black */
+ .wrapper {
+   background-color: black;
+  }
+  
+  @keyframes type{ 
+    from { 
+         width: 0; 
+         } 
+     }
+
+div.h3{
+    color: antiquewhite;
+}
+
+img{
+    border:5px solid green;
+    border-radius: 20px;
+    transition: transform 0.8 ease-in-out;
+}
+img:hover{
+    transform: scale(1.2);
+}
+
+footer{
+    margin-bottom: 0px;
+    height:100px;
+    background-color:rgb(104, 113, 60);
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.d3{
+    font-size: larger;
+}
